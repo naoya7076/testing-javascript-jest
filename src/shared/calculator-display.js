@@ -12,8 +12,8 @@ const DisplayContainer = styled.div(
     flex: '1',
   },
   ({theme}) => ({
-    color:theme.displayTextColor,
-    background: theme.displayBackGroundColor,
+    color: theme.displayTextColor,
+    background: theme.displayBackgroundColor,
   }),
 )
 
