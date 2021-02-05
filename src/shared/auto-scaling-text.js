@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './auto-scaling-text.module.css'
 
+// commits!
+
 function getScale(node) {
   if (!node) {
     return 1
@@ -15,7 +17,7 @@ function getScale(node) {
   if (actualScale < 1) {
     return actualScale * 0.9
   }
-  return 2
+  return 1
 }
 
 function AutoScalingText({children}) {
